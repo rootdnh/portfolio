@@ -48,7 +48,7 @@ function Home() {
 
       <Banner alt="banner">
         <TextBanner>
-          <h1 className="main-title">Olá, seja BEM-VINDO ao meu portifólio</h1>
+          <h1 className="main-title">Olá, seja BEM-VINDO ao meu portfólio</h1>
           <p>
             Aqui vou apresentar a você um pouco do que já fiz na minha carreira
             como dev, e as experiências que tive no mercado de trabalho, espero
