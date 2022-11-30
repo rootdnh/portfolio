@@ -1,5 +1,6 @@
 # Meu portfólio, criado com ReactJs, Styled components.
 
+OBS: Em desenvolvimento.
 
 
 ## Scripts
