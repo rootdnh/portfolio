@@ -42,6 +42,7 @@ export default function Banner() {
      </S.Button>
     </S.Container>
    </S.TextBanner>
+   
    <img id="profile" src={Images.banner} alt="Foto de perfil" />
 
    <div className="ball-left">

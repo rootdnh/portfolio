@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-
 export const Projects = styled.div`
  display: flex;
+ padding: 30px 8% 30px 7%;
  flex-direction: column;
- padding: 30px 10% 30px 10%;
+ justify-content: center;
  color: var(--white);
- gap: 10px;
+ 
 
  .noneLinkStyle {
   text-decoration: none;
@@ -16,6 +16,8 @@ export const Projects = styled.div`
  .projectSections {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
   flex-wrap: wrap;
   width: 100%;
   gap: 10px;
@@ -28,7 +30,7 @@ export const Projects = styled.div`
  }
 
  .single-project {
-  width: 350px;
+  width: 23em;
   border: 2px solid var(--shape-hover);
   border-radius: 5px;
   transition: 0.7s;
@@ -51,4 +53,15 @@ export const Projects = styled.div`
    object-fit: cover;
   }
  }
+
+ @media(max-width: 900px) {
+   .single-project {
+    width: 23em;
+   }
+   & {
+    align-items: center;
+   }
+  
+
+  }
 `;

@@ -47,6 +47,7 @@ export const Banner = styled.div`
  }
 
  .ball-left {
+  z-index: -9999;
   position: absolute;
   bottom: 0;
   left: 0;

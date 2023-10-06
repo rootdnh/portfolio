@@ -1,10 +1,12 @@
 import * as S from "./styles";
 import * as Images from "../../assets/index";
+import { Container } from "react-bootstrap";
 
 export default function Projects(){
   return (
+    <Container>
     <S.Projects id="projects">
-    <h1>Projetos</h1>
+    <h1 id="title-project">Projetos</h1>
     <hr />
     <section className="projectSections">
      <a
@@ -82,6 +84,6 @@ export default function Projects(){
      </a>
     </section>
    </S.Projects>
-
+   </Container>
   )
 }
