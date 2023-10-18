@@ -14,21 +14,18 @@ export default function About() {
     </h1>
     <br />
     <p>
-     Meu objetivo como pessoa e desenvolvedor é sempre estar aprendendo, poder
-     participar de projetos aonde possa colocar em prática meu conhecimento.
+     Sou um desenvolvedor Full Stack com experiência em ajudar clientes a
+     estabelecer sua presença digital por meio de portfólios, e-commerces e
+     landing pages. Meu foco sempre foi no desempenho e na otimização, aplicando
+     as melhores práticas de desenvolvimento. Minha trajetória inclui tanto
+     trabalhos em empresas de software quanto como profissional autônomo.
      <br />
-     Adoro criar coisas novas e resolver problemas com tecnologia, sejam elas
-     coisas simples do meu dia a dia ou necessidades mais complexas.
      <br />
-     <br />
-     Estou me formando em Sistemas de informação na UDESC, e pelo caminho tive
-     várias experiências, desenvolvendo sistemas na indústria 4.0, utilizando
-     ReactJs, React Native, Git, Bootstrap e Electron, trabalhei como
-     desenvolvedor web, criando ecommerces, sites institucionais, landing pages
-     e gerenciado a criação,desenvolvi textos, edição de imagens, muito uso de
-     SEO junto com o Marketing Digital, aonde construí um sólido aprendizado em
-     Wordpress, HTML, CSS, JAVASCRIPT, PHOTOSHOP, CPANEL, entre outras
-     experiências, assim como atendimento ao cliente.
+     Como pessoa e desenvolvedor, meu objetivo contínuo é aprender e crescer.
+     Estou sempre em busca de projetos desafiadores nos quais posso aplicar meu
+     conhecimento e transformar ideias em realidade. Tenho uma paixão por criar
+     soluções inovadoras e enfrentar problemas com tecnologia, independentemente
+     de serem desafios do cotidiano ou necessidades mais complexas.
     </p>
    </div>
   </S.About>

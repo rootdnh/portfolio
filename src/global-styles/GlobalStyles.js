@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
       --text: #a8a8b3;
       --gray: #e1e1e6;
       --primary: #8257e5;
+      --secondary: #c8b9ea;
       --shape-hover: #29292e;
     }
     
@@ -17,12 +18,13 @@ const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
     }
     html {
-        background-color: var(--background);
+        background-color: var(--background) !important;
         height: 100vh;
         width: 100vw;
         font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
         color: var(--text);
         overflow-x: hidden;  
+        scroll-behavior: smooth;
     }
     ::-webkit-scrollbar{ 
         width: 10px;

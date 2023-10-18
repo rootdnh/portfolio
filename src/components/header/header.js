@@ -1,12 +1,12 @@
 import { MyHeader, Logo, Container, Menu } from "./styles";
 
 function Header(props) {
-  var isOpen = false;
+  let isOpen = false;
 
   function toggleMenu() {
-    var menu = document.querySelector("#menu");
-    var btnMobile = document.querySelector(".btnMobile");
-    var width = window.innerWidth;
+    let menu = document.querySelector("#menu");
+    let btnMobile = document.querySelector(".btnMobile");
+    let width = window.innerWidth;
 
     if (width <= "768") {
       isOpen = !isOpen;
