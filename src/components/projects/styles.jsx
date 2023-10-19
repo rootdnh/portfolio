@@ -2,15 +2,21 @@ import styled from "styled-components";
 
 
 export const Projects = styled.div`
- 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 30px 8% 30px 8%;
  color: var(--white);
+
+
+
 
  hr {
   width: 100px;
   margin: 0px 0px 30px 0px;
   border: 1px solid var(--primary);
  }
- padding: 30px 8% 30px 8%;
  
 `;
 
@@ -20,10 +26,19 @@ export const Project = styled.div`
  justify-content: center;
  padding: 10px;
  color: var(--white);
+ &:hover {
+  transform: scale(1.01);
+ }
  
+ .StyledButtons {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  gap: 10px
+ }
 
  .single-project {
-  width: 23em;
+  width: 21em;
   border: 2px solid var(--shape-hover);
   border-radius: 5px;
   transition: 0.7s;
@@ -34,13 +49,16 @@ export const Project = styled.div`
    padding: 10px;
   }
   p {
+   box-sizing: content-box;
    padding: 10px;
    min-height: 12em;
    position: relative;
+   
   }
+
   img {
    width: 100%;
-   height: 170px;
+   height: auto;
    object-fit: cover;
   }
  }
@@ -50,11 +68,11 @@ export const Project = styled.div`
   display: flex;
   text-decoration: none;
   color: white;
-  position: absolute;
-  bottom: 10px;
+  position: relative;
   border: 1px solid var(--primary);
-  width: 30%;
+  width: auto;
   border-radius: 20px;
+  
  }
 
  .noneLinkStyle span {
@@ -64,7 +82,7 @@ export const Project = styled.div`
   gap: 5px;
 
  }
- .noneLinkStyle a:hover {
+ .noneLinkStyle:hover {
   box-shadow: 0px 0px 8px var(--primary), 0px 0px 8px var(--primary) ;
 
  }
@@ -79,6 +97,9 @@ export const Project = styled.div`
    }
   
   }
+
+
+ 
 `;
 
 export const StyledTabs = styled.div`
@@ -92,7 +113,8 @@ export const StyledTab = styled.div`
   border: 1px solid var(--primary);
   cursor: pointer;
   background-color: ${(props) => (props.active ? 'var(--primary)' : 'transparent')};
-  
+  text-align: center;
+
   &:first-child {
     border-radius: 20px 0px 0px 20px;
   }
@@ -101,17 +123,20 @@ export const StyledTab = styled.div`
   }
   
   &:hover {
-    background-color: var(--secondary);
+    box-shadow: 0px 0px 10px var(--primary), 0px 0px 15px var(--primary) ;
   }
 `;
 
 export const StyledTabContent = styled.div`
   display: ${(props) => (props.active ? 'flex' : 'none')};
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   padding-top: 2em;
 
 `;
+
 
 export const Bold = styled.b`
   color: var(--primary)
